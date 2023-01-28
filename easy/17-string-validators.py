@@ -15,7 +15,6 @@ if __name__ == '__main__':
         if x.isalpha():
             is_alphabetical = True
     
-    
     for x in s:
         if x.isdigit():
             is_digit = True
