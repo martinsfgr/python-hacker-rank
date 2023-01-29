@@ -1,4 +1,5 @@
-N, M = map(int, input().split())
+N = int(input())
+M = N*3
 
 center = N // 2
 output = []
