@@ -6,10 +6,7 @@ for i in range(N):
     command = input().split()
 
     if command[0].startswith("pop"):
-        if len(command) == 1:
-            s.pop()
-        else:
-            s.pop(int(command[1]))
+        s.pop()
     
     elif command[0].startswith("remove"):
         s.remove(int(command[1]))
